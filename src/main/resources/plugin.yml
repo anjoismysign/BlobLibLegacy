@@ -1,0 +1,4 @@
+name: BlobLibLegacy
+version: ${project.version}
+main: us.mytheria.blobliblegacy.BlobLibLegacy
+load: STARTUP
