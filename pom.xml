@@ -5,11 +5,26 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>us.mytheria</groupId>
-    <artifactId>BlobLibLegacy</artifactId>
-    <version>1.0</version>
+    <artifactId>blobliblegacy</artifactId>
+    <version>1.001s</version>
     <packaging>jar</packaging>
 
     <name>BlobLibLegacy</name>
+
+    <scm>
+        <connection>scm:git:git@github.com:anjoismysign/BlobLibLegacy.git</connection>
+        <developerConnection>scm:git:git@github.com:anjoismysign/BlobLibLegacy.git</developerConnection>
+        <url>https://github.com/anjoismysign/BlobLibLegacy</url>
+        <tag>1.2.3</tag>
+    </scm>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub anjoismysign Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/anjoismysign/BlobLibLegacy</url>
+        </repository>
+    </distributionManagement>
 
     <properties>
         <java.version>1.8</java.version>
